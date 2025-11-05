@@ -4,10 +4,6 @@
   <img src="https://capsule-render.vercel.app/api?type=rect&color=000000&height=200&text=KALI%20LINUX&fontSize=40&fontColor=ffffff&textBg=false" alt="Kali Linux Banner"/>
 </div>
 
-<div align="center">
-  <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&size=22&pause=1000&color=8A2BE2&center=true&width=435&lines=root@excanear:~#;breaking+systems;pwning+targets;ethical+hacking;digital+forensics;threat+hunting" alt="Typing SVG" />
-</div>
-
 ---
 
 ## 📊 GitHub Stats
