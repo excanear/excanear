@@ -24,7 +24,7 @@
         <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=excanear&layout=compact&theme=radical&hide_border=true&bg_color=0d1117&title_color=ff0000&text_color=ffffff&langs_count=15" alt="Most Used Languages" width="400"/>
       </td>
       <td>
-        <img src="https://github-readme-stats.vercel.app/api?username=excanear&show_icons=true&theme=radical&hide_border=true&bg_color=0d1117&title_color=ff0000&text_color=ffffff&icon_color=dc143c&count_private=true&include_all_commits=true" alt="GitHub Stats" width="400"/>
+        
       </td>
     </tr>
   </table>
