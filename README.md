@@ -215,11 +215,6 @@
 
 ---
 
-
-![Snake Animation](https://raw.githubusercontent.com/Platane/snk/output/github-contribution-grid-snake.svg)
-
----
-
 **Made with 💀 by excanear**
 
 *"In a world of locked doors, the man with the key is king"*
