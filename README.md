@@ -189,10 +189,6 @@
 </tr>
 </table>
 
-### 📧 Contato Profissional
-
-- 🔐 **Email Seguro:** escanearcpl@gmail.com
-
 ---
 
 ## 🚨 Aviso Legal
