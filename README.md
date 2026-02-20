@@ -195,16 +195,3 @@ Ambiente de Testes Controlado:
 ---
 
 Feito com 💀 por Escanearcpl © 2026
-
-❌ NÃO me responsabilizo pelo uso inadequado  
-✅ SEMPRE obtenha autorização antes de testar  
-🔐 Respeite a privacidade e a lei  
-🛡️ Use o conhecimento para DEFENDER, não atacar  
-
-*"A segurança não é um produto, mas um processo"*  
-
-💀 Mantenha-se Vigilante | Mantenha-se Seguro | Mantenha-se Anônimo 💀  
-
----
-
-Feito com 💀 por Escanearcpl © 2026
