@@ -15,7 +15,7 @@
 <p>
   <a href="https://www.escanearcplx.com"><img src="https://img.shields.io/badge/Website-0a0a0a?style=flat-square&logo=google-chrome&logoColor=white" alt="Website" /></a>
   <a href="https://github.com/excanear?tab=repositories"><img src="https://img.shields.io/badge/Reposit%C3%B3rios-111827?style=flat-square&logo=github&logoColor=white" alt="Repositorios" /></a>
-  <a href="https://twitter.com/escanearcplx"><img src="https://img.shields.io/badge/Twitter-0f172a?style=flat-square&logo=x&logoColor=white" alt="Twitter" /></a>
+  <a href="https://twitter.com/x34Excanearcpl"><img src="https://img.shields.io/badge/Twitter-0f172a?style=flat-square&logo=x&logoColor=white" alt="Twitter" /></a>
 </p>
 
 </div>
