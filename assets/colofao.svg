@@ -1,0 +1,11 @@
+<svg width="900" height="92" viewBox="0 0 900 92" fill="none" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Colofão">
+  <style>.m{font-family:'JetBrains Mono','SF Mono','Consolas',ui-monospace,monospace;}</style>
+  <rect x="1" y="1" width="898" height="90" rx="8" fill="#0b0d10" stroke="#1f242b" stroke-width="1.5"/>
+  <rect x="1" y="1" width="4" height="90" rx="2" fill="#e8a33d"/>
+
+  <text x="28" y="40" class="m" font-size="14" fill="#c9d1d9" letter-spacing="0.5">O conhecimento ofensivo existe para fortalecer a defesa, não para violá-la.</text>
+  <text x="28" y="66" class="m" font-size="11.5" fill="#6b7682" letter-spacing="2">COLOFÃO · USO AUTORIZADO · PESQUISA E SEGURANÇA DEFENSIVA</text>
+
+  <text x="872" y="40" text-anchor="end" class="m" font-size="11.5" fill="#6b7682" letter-spacing="1.5">CANAL</text>
+  <text x="872" y="66" text-anchor="end" class="m" font-size="14" fill="#e8a33d" letter-spacing="0.5">escanearcplx.com</text>
+</svg>

@@ -1,287 +1,162 @@
-<div align="center">
-
-<img src="https://capsule-render.vercel.app/api?type=waving&color=0:000000,50:7a0f0f,100:000000&height=220&section=header&text=EXCANEAR&fontSize=70&fontColor=e5e5e5&fontAlignY=38&desc=Offensive%20Security%20%7C%20Red%20Team%20%7C%20Digital%20Forensics&descAlignY=58&descSize=18&animation=fadeIn" width="100%" alt="banner" />
-
-<br/>
-
-<img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=800&size=24&duration=2600&pause=1000&color=C0392B&center=true&vCenter=true&random=false&width=850&lines=root%40excanear%3A~%23+whoami;%3E+especialista+em+seguran%C3%A7a+ofensiva;%3E+red+team+%7C+pentest+%7C+dfir+%7C+reverse+engineering;%3E+ferramentas+reais.+n%C3%A3o+provas+de+conceito.;root%40excanear%3A~%23+_" alt="Typing SVG" />
-
-<br/>
-
-<p>
-  <img src="https://komarev.com/ghpvc/?username=excanear&label=PROFILE+VIEWS&color=1a1a1a&style=for-the-badge&labelColor=7a0f0f" alt="views" />
-  <img src="https://img.shields.io/github/followers/excanear?label=FOLLOWERS&style=for-the-badge&color=1a1a1a&labelColor=7a0f0f" alt="followers" />
-  <img src="https://img.shields.io/github/stars/excanear?affiliations=OWNER&label=STARS&style=for-the-badge&color=1a1a1a&labelColor=7a0f0f" alt="stars" />
+<p align="center">
+  <img src="assets/banner.svg" alt="excanear — Segurança ofensiva e engenharia de baixo nível" width="100%">
 </p>
 
-<p>
-  <a href="https://www.escanearcplx.com"><img src="https://img.shields.io/badge/PORTFÓLIO-000000?style=for-the-badge&logo=vercel&logoColor=C0392B" alt="site" /></a>
-  <a href="https://github.com/excanear?tab=repositories"><img src="https://img.shields.io/badge/ARSENAL-000000?style=for-the-badge&logo=github&logoColor=C0392B" alt="repos" /></a>
+<p align="center">
+  <sub><code>Segurança ofensiva e engenharia de baixo nível — eu construo a ferramenta, não só a prova de conceito.</code></sub>
 </p>
 
-</div>
+&nbsp;
 
-<img src="https://capsule-render.vercel.app/api?type=rect&color=0:7a0f0f,100:000000&height=3&section=header&width=100%" width="100%" alt="divider" />
+Pesquisa ofensiva, engenharia de baixo nível e investigação forense. O foco não é demonstrar uma vulnerabilidade — é entregar a ferramenta que a encontra, a explora e, no fim, fortalece a defesa. Cada projeto aqui começa de uma pergunta simples: *como isso funciona por baixo?*
 
-<br/>
+&nbsp;
 
-```
-
-┌─[ excanear@root ]─[ ~/identity ]
-│
-├─ CLASSIFICAÇÃO ..... Offensive Security Specialist
-├─ FOCO ............... Red Team Ops · DFIR · Reverse Engineering
-├─ FILOSOFIA .......... Construir a ferramenta, não só provar o conceito
-├─ AMBIENTE ........... Kali · Parrot OS · BlackArch
-├─ STATUS ............. [ ONLINE ] operando em modo ofensivo controlado
-│
-└─ execute → scroll down para o dossiê completo
-
-```
-
-<br/>
-
-## <img src="https://em-content.zobj.net/source/apple/391/skull_1f480.png" width="26"/> Sobre a Operação
-
-Não escrevo apenas exploits de prateleira nem repito ferramentas prontas. Cada repositório aqui é construído do zero — motor de CVEs, suíte forense, hypervisor, fuzzer, driver de kernel — porque entender o *como* por dentro é a única forma de operar com precisão do lado ofensivo e defensivo.
+## Perímetro
 
 <table>
-<tr>
-<td width="33%" valign="top">
-
-**`0x01` Mentalidade**
-
-Engenharia antes de execução. Toda ferramenta nasce de uma pergunta técnica real, não de um tutorial.
-
-</td>
-<td width="33%" valign="top">
-
-**`0x02` Abordagem**
-
-Discrição, repetibilidade e profundidade. Operação real exige mais do que um script que funciona uma vez.
-
-</td>
-<td width="33%" valign="top">
-
-**`0x03` Objetivo**
-
-Elevar a maturidade ofensiva e defensiva de ambientes através de pesquisa aplicada e ferramentas próprias.
-
-</td>
-</tr>
+  <thead>
+    <tr>
+      <th align="left"><sub>#</sub></th>
+      <th align="left"><sub>FRENTE</sub></th>
+      <th align="left"><sub>ESCOPO</sub></th>
+      <th align="left"><sub>INSTRUMENTO</sub></th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td><code>01</code></td>
+      <td><b>Offensive · Red Team</b></td>
+      <td>Pentest, recon em escala, pesquisa de CVE, fuzzing</td>
+      <td><sub><code>Nmap · Burp · ffuf · Metasploit</code></sub></td>
+    </tr>
+    <tr>
+      <td><code>02</code></td>
+      <td><b>Application Security</b></td>
+      <td>Metodologia OWASP, controle de acesso, injeção, XSS, SSRF, tooling defensivo</td>
+      <td><sub><code>OWASP ZAP · Burp · Python</code></sub></td>
+    </tr>
+    <tr>
+      <td><code>03</code></td>
+      <td><b>Reverse Engineering</b></td>
+      <td>Análise de malware, binário e firmware, DLL hijacking</td>
+      <td><sub><code>C · C++ · x86-64</code></sub></td>
+    </tr>
+    <tr>
+      <td><code>04</code></td>
+      <td><b>Forense · DFIR</b></td>
+      <td>Memória, disco, rede e Android; resposta a incidentes</td>
+      <td><sub><code>C# · Python</code></sub></td>
+    </tr>
+    <tr>
+      <td><code>05</code></td>
+      <td><b>Baixo nível · Kernel</b></td>
+      <td>Kernel, hypervisors, drivers, criptografia aplicada</td>
+      <td><sub><code>C · Assembly · Rust</code></sub></td>
+    </tr>
+  </tbody>
 </table>
 
-<img src="https://capsule-render.vercel.app/api?type=rect&color=0:000000,100:7a0f0f&height=3&width=100%" width="100%" alt="divider" />
+<img src="assets/divider.svg" alt="" width="100%">
 
-## <img src="https://em-content.zobj.net/source/apple/391/crossed-swords_2694-fe0f.png" width="24"/> Áreas de Atuação
+## Arsenal
+
+> Seleção. O índice completo fica ao final.
 
 <table>
-<tr>
-<td width="50%" valign="top">
-
-### ⚔️ Ofensiva
-- Operações Red Team & simulação adversária
-- Pesquisa e prototipação de exploits / CVEs
-- Fuzzing e descoberta de vulnerabilidades
-- Reconhecimento e enumeração em escala
-- DLL hijacking, evasão e pós-exploração
-
-</td>
-<td width="50%" valign="top">
-
-### 🧬 Investigação & Sistemas
-- Forense digital: memória, disco, rede e Android
-- Engenharia reversa e análise de binários
-- Virtualização, hypervisors e drivers de kernel
-- Criptografia aplicada e engenharia de baixo nível
-- Ferramentas customizadas ponta a ponta
-
-</td>
-</tr>
+  <tbody>
+    <tr>
+      <td width="30%"><a href="https://github.com/excanear/OWASP-Bypass"><b>OWASP&nbsp;Bypass</b></a><br><sub><code>Python</code></sub></td>
+      <td>Engine autônomo de exploração web. <b>106 de 107</b> desafios do OWASP Juice Shop resolvidos de ponta a ponta.</td>
+    </tr>
+    <tr>
+      <td><a href="https://github.com/excanear/Web-Application-Reconnaissance-Investigation-Platform"><b>Web&nbsp;Recon&nbsp;Platform</b></a><br><sub><code>Python</code></sub></td>
+      <td>CLI de reconhecimento ofensivo: fingerprint real de tecnologia e versão, correlacionado a CVEs via NVD.</td>
+    </tr>
+    <tr>
+      <td><a href="https://github.com/excanear/devkit"><b>DEVKIT</b></a><br><sub><code>Assembly</code></sub></td>
+      <td>Toolkit de terminal escrito em <b>100% Assembly x86-64</b> — estático, sem uma única dependência.</td>
+    </tr>
+    <tr>
+      <td><a href="https://github.com/excanear/OSIRIS---Operational-System-Intelligence-Response-Investigation-System"><b>OSIRIS</b></a><br><sub><code>Rust</code></sub></td>
+      <td>Operational System Intelligence &amp; Response — inteligência operacional e investigação de sistema.</td>
+    </tr>
+    <tr>
+      <td><a href="https://github.com/excanear/Network-Kernel-Driver"><b>Network&nbsp;Kernel&nbsp;Driver</b></a><br><sub><code>Rust</code></sub></td>
+      <td>Driver de rede em nível de kernel — interceptação e inspeção abaixo do userspace.</td>
+    </tr>
+    <tr>
+      <td><a href="https://github.com/excanear/Sysinfo-Shell"><b>Sysinfo&nbsp;Shell</b></a><br><sub><code>Shell</code></sub></td>
+      <td>System info em shell POSIX puro, zero dependências: Linux, Windows, WSL, Git Bash e MSYS2.</td>
+    </tr>
+  </tbody>
 </table>
 
-<img src="https://capsule-render.vercel.app/api?type=rect&color=0:7a0f0f,100:000000&height=3&width=100%" width="100%" alt="divider" />
+<img src="assets/divider.svg" alt="" width="100%">
 
-## <img src="https://em-content.zobj.net/source/apple/391/toolbox_1f9f0.png" width="24"/> Arsenal em Destaque
+## Instrumentação
 
 <table>
-<tr>
-<td width="50%" valign="top">
-
-**[🛡️ android-forensics-suite](https://github.com/excanear/android-forensics-suite)**
-Aquisição forense Android via ADB oficial — sem root, sem exploit. C# · .NET · WPF · MVVM.
-<br><sub>`C#` `.NET` `Forensics`</sub>
-
-</td>
-<td width="50%" valign="top">
-
-**[💀 epa — Excanear Portable Appliance](https://github.com/excanear/epa)**
-Appliance embarcado, CLI-only, para auditoria de hardware/firmware e resposta a incidentes em campo.
-<br><sub>`C` `Embedded Linux` `IR`</sub>
-
-</td>
-</tr>
-<tr>
-<td width="50%" valign="top">
-
-**[🧠 Project REXA](https://github.com/excanear/Project-REXA-Reverse-Engineering-eXtensible-Analyzer)**
-Analisador extensível para engenharia reversa e dissecação profunda de binários.
-<br><sub>`Reverse Engineering` `Analysis`</sub>
-
-</td>
-<td width="50%" valign="top">
-
-**[🎯 Hacking-Framework](https://github.com/excanear/Hacking-Framework-OPEN-SOURCE)**
-Framework modular em Python para fluxos ofensivos controlados, pensado para operador.
-<br><sub>`Python` `Red Team`</sub>
-
-</td>
-</tr>
-<tr>
-<td width="50%" valign="top">
-
-**[🩸 CVEs-Engine](https://github.com/excanear/CVEs-Engine)**
-Motor para catalogar, correlacionar e operacionalizar CVEs em avaliações técnicas.
-<br><sub>`C#` `Vulnerability Research`</sub>
-
-</td>
-<td width="50%" valign="top">
-
-**[⚡ HyperVisor-Open-Source](https://github.com/excanear/HyperVisor-Open-Source)**
-Pesquisa em virtualização e isolamento para análise segura e controlada.
-<br><sub>`C` `Virtualization`</sub>
-
-</td>
-</tr>
+  <thead>
+    <tr>
+      <th align="left"><sub>LINGUAGENS</sub></th>
+      <th align="left"><sub>OFENSIVO · REDE</sub></th>
+      <th align="left"><sub>ENGENHARIA · WEB</sub></th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr valign="top">
+      <td><sub><code>Python</code> <code>C</code> <code>C++</code> <code>C#</code><br><code>Go</code> <code>Rust</code> <code>Java</code> <code>Assembly</code></sub></td>
+      <td><sub><code>Nmap</code> <code>Wireshark</code> <code>Burp&nbsp;Suite</code><br><code>OWASP&nbsp;ZAP</code> <code>ffuf</code> <code>Gobuster</code><br><code>Metasploit</code> <code>Kali&nbsp;Linux</code></sub></td>
+      <td><sub><code>Docker</code> <code>Linux</code> <code>Git</code><br><code>React</code> <code>Next.js</code> <code>TypeScript</code><br><code>Tailwind</code> <code>GSAP</code></sub></td>
+    </tr>
+  </tbody>
 </table>
 
 <details>
-<summary><b>▸ Ver arsenal completo (31 repositórios)</b></summary>
+<summary><sub><b>Credenciais técnicas</b></sub></summary>
+
 <br>
 
-| Categoria | Projeto | Stack |
-|---|---|---|
-| Forense & DFIR | [Android-Forensics](https://github.com/excanear/Android-Forensics) | — |
-| Forense & DFIR | [android-forensics-suite](https://github.com/excanear/android-forensics-suite) | C# |
-| Forense & DFIR | [Ferramenta-de-Analise-Forense-de-Memoria-e-Rede](https://github.com/excanear/Ferramenta-de-Analise-Forense-de-Memoria-e-Rede) | C# |
-| Forense & DFIR | [Ferramenta-de-chunked-file-carving](https://github.com/excanear/Ferramenta-de-chunked-file-carving) | C++ |
-| Forense & DFIR | [Raw-Disk-Viwer-CPLX](https://github.com/excanear/Raw-Disk-Viwer-CPLX) | SWIG |
-| Ofensiva & Exploit Dev | [CVEs-Engine](https://github.com/excanear/CVEs-Engine) | C# |
-| Ofensiva & Exploit Dev | [CVEs-Pentest](https://github.com/excanear/CVEs-Pentest) | — |
-| Ofensiva & Exploit Dev | [Exploits-and-CVEs-Systems](https://github.com/excanear/Exploits-and-CVEs-Systems) | — |
-| Ofensiva & Exploit Dev | [Escanearcpl-Exploit-Tools](https://github.com/excanear/Escanearcpl-Exploit-Tools) | Python |
-| Ofensiva & Exploit Dev | [Fuzzer-Vuln-Open-Source](https://github.com/excanear/Fuzzer-Vuln-Open-Source) | C++ |
-| Ofensiva & Exploit Dev | [DLL-Hijacking-System](https://github.com/excanear/DLL-Hijacking-System) | C++ |
-| Ofensiva & Exploit Dev | [Hacking-Framework-OPEN-SOURCE](https://github.com/excanear/Hacking-Framework-OPEN-SOURCE) | Python |
-| Ofensiva & Exploit Dev | [X34-CYPH3R-PUNX](https://github.com/excanear/X34-CYPH3R-PUNX) | Python |
-| Reconhecimento & Rede | [Crawler-de-Subdominios](https://github.com/excanear/Crawler-de-Subdominios) | Go |
-| Reconhecimento & Rede | [Consultor-WHOIS-e-IP-Info](https://github.com/excanear/Consultor-WHOIS-e-IP-Info) | C# |
-| Reconhecimento & Rede | [PortScan-CPLX](https://github.com/excanear/PortScan-CPLX) | Go |
-| Reconhecimento & Rede | [Scanner-de-Portas](https://github.com/excanear/Scanner-de-Portas) | C |
-| Reconhecimento & Rede | [WebScan](https://github.com/excanear/WebScan) | Go |
-| Criptografia & Dados | [Criptografia-e-descriptografia-de-arquivos-AES](https://github.com/excanear/Criptografia-e-descriptografia-de-arquivos-AES) | Python |
-| Criptografia & Dados | [Sistema-de-Criptografia-e-Descriptografia-Avancada-Open-Source](https://github.com/excanear/Sistema-de-Criptografia-e-Descriptografia-Avancada-Open-Source) | Assembly |
-| Criptografia & Dados | [Sistema-de-Criptografia-Industrial](https://github.com/excanear/Sistema-de-Criptografia-Industrial) | — |
-| Criptografia & Dados | [Gerador-de-Senhas-Hash](https://github.com/excanear/Gerador-de-Senhas-Hash) | Assembly |
-| Criptografia & Dados | [Gerador-de-Senhas](https://github.com/excanear/Gerador-de-Senhas) | C# |
-| Criptografia & Dados | [Protocolo-MORPHEUS](https://github.com/excanear/Protocolo-MORPHEUS) | Python |
-| Sistemas & Low-Level | [Arquitetura-de-CPU](https://github.com/excanear/Arquitetura-de-CPU) | Python |
-| Sistemas & Low-Level | [HyperVisor-Open-Source](https://github.com/excanear/HyperVisor-Open-Source) | C |
-| Sistemas & Low-Level | [Network-Kernel-Driver](https://github.com/excanear/Network-Kernel-Driver) | Rust |
-| Sistemas & Low-Level | [epa](https://github.com/excanear/epa) | C |
-| Sistemas & Low-Level | [Project-REXA-Reverse-Engineering-eXtensible-Analyzer](https://github.com/excanear/Project-REXA-Reverse-Engineering-eXtensible-Analyzer) | — |
-| Sistemas & Low-Level | [JavaPad-Pro-OPEN-SOURCE](https://github.com/excanear/JavaPad-Pro-OPEN-SOURCE) | Java |
+<sub>
+
+| Emissor | Credencial |
+|---|---|
+| Cisco / IBSEC | Certified Ethical Hacker (CEH) |
+| IBSEC | Certified Pentester |
+| Cisco | Cybersecurity Defense Analyst |
+| Palo Alto | Cloud Security Professional · SOC Professional |
+| Fortinet | Network Security Expert 3 |
+| Linux Foundation | Linux Kernel Development |
+| Securiti AI | AI Security &amp; Governance |
+
+</sub>
 
 </details>
 
-<img src="https://capsule-render.vercel.app/api?type=rect&color=0:000000,100:7a0f0f&height=3&width=100%" width="100%" alt="divider" />
+<details>
+<summary><sub><b>Índice completo do arsenal</b></sub></summary>
 
-## <img src="https://em-content.zobj.net/source/apple/391/gear_2699-fe0f.png" width="24"/> Stack Técnica
+<br>
 
-<div align="center">
+<sub>
 
-<img src="https://img.shields.io/badge/Python-000000?style=for-the-badge&logo=python&logoColor=C0392B" />
-<img src="https://img.shields.io/badge/C-000000?style=for-the-badge&logo=c&logoColor=C0392B" />
-<img src="https://img.shields.io/badge/C%2B%2B-000000?style=for-the-badge&logo=cplusplus&logoColor=C0392B" />
-<img src="https://img.shields.io/badge/C%23-000000?style=for-the-badge&logo=csharp&logoColor=C0392B" />
-<img src="https://img.shields.io/badge/Go-000000?style=for-the-badge&logo=go&logoColor=C0392B" />
-<img src="https://img.shields.io/badge/Rust-000000?style=for-the-badge&logo=rust&logoColor=C0392B" />
-<img src="https://img.shields.io/badge/Java-000000?style=for-the-badge&logo=openjdk&logoColor=C0392B" />
-<img src="https://img.shields.io/badge/Assembly-000000?style=for-the-badge&logo=cachet&logoColor=C0392B" />
+**Ofensivo · AppSec** — `CVEs-Enterprise-System` · `Escanearcpl-Exploit-Tools` · `Hacking-Framework` · `Fuzzer-Vuln` · `PortScan-CPLX` · `WebScan` · `Crawler-de-Subdominios` · `Scanner-de-Portas`
 
-<br/><br/>
+**Reverse · Baixo nível** — `DLL-Hijacking-System` · `HyperVisor-Open-Source` · `Project-REXA` · `Arquitetura-de-CPU` · `Network-Kernel-Driver`
 
-<img src="https://img.shields.io/badge/Nmap-000000?style=flat-square&logo=nmap&logoColor=C0392B" />
-<img src="https://img.shields.io/badge/Wireshark-000000?style=flat-square&logo=wireshark&logoColor=C0392B" />
-<img src="https://img.shields.io/badge/Burp%20Suite-000000?style=flat-square&logo=burpsuite&logoColor=C0392B" />
-<img src="https://img.shields.io/badge/Metasploit-000000?style=flat-square&logo=metasploit&logoColor=C0392B" />
-<img src="https://img.shields.io/badge/Kali%20Linux-000000?style=flat-square&logo=kalilinux&logoColor=C0392B" />
-<img src="https://img.shields.io/badge/Docker-000000?style=flat-square&logo=docker&logoColor=C0392B" />
-<img src="https://img.shields.io/badge/Linux-000000?style=flat-square&logo=linux&logoColor=C0392B" />
-<img src="https://img.shields.io/badge/Git-000000?style=flat-square&logo=git&logoColor=C0392B" />
+**Forense · DFIR** — `android-forensics-suite` · `Ferramenta-de-Analise-Forense-de-Memoria-e-Rede` · `Ferramenta-de-chunked-file-carving` · `Raw-Disk-Viwer-CPLX`
 
-</div>
+**Criptografia** — `Sistema-de-Criptografia-e-Descriptografia-Avancada` · `Criptografia-AES` · `Gerador-de-Senhas-Hash`
 
-<img src="https://capsule-render.vercel.app/api?type=rect&color=0:7a0f0f,100:000000&height=3&width=100%" width="100%" alt="divider" />
+</sub>
 
-## <img src="https://em-content.zobj.net/source/apple/391/bar-chart_1f4ca.png" width="24"/> Inteligência Operacional
+</details>
 
-<div align="center">
+<img src="assets/divider.svg" alt="" width="100%">
 
-<img src="https://github-readme-stats.vercel.app/api?username=excanear&show_icons=true&include_all_commits=true&count_private=true&hide_border=true&bg_color=00000000&title_color=C0392B&icon_color=C0392B&text_color=e5e5e5&ring_color=7a0f0f" height="165" alt="stats" />
-<img src="https://github-readme-stats.vercel.app/api/top-langs/?username=excanear&layout=compact&hide_border=true&bg_color=00000000&title_color=C0392B&text_color=e5e5e5&langs_count=8" height="165" alt="top langs" />
+&nbsp;
 
-<br/>
-
-<img src="https://streak-stats.demolab.com?user=excanear&hide_border=true&background=00000000&ring=7a0f0f&fire=C0392B&currStreakLabel=C0392B&sideLabels=e5e5e5&currStreakNum=e5e5e5&sideNums=e5e5e5&dates=6b7280" alt="streak" />
-
-<br/>
-
-<img src="https://github-profile-trophy.vercel.app/?username=excanear&theme=matrix&no-frame=true&no-bg=true&row=1&margin-w=12&column=6" alt="trophies" />
-
-</div>
-
-<div align="center">
-<img src="https://raw.githubusercontent.com/excanear/excanear/output/github-contribution-grid-snake-dark.svg" alt="snake animation" width="100%" />
-<sub>Animação alimentada por <a href="https://github.com/Platane/snk">Platane/snk</a> — ative a GitHub Action para renderizar seu próprio grid.</sub>
-</div>
-
-<img src="https://capsule-render.vercel.app/api?type=rect&color=0:000000,100:7a0f0f&height=3&width=100%" width="100%" alt="divider" />
-
-## <img src="https://em-content.zobj.net/source/apple/391/dart_1f3af.png" width="24"/> Direção Atual
-
-```diff
-+ Evoluindo frameworks ofensivos com arquitetura mais limpa e melhor UX de operador
-+ Expandindo o portfólio DFIR com pipelines de triagem mais rápidos
-+ Publicando mais pesquisa low-level: virtualização, kernel, internals
-+ Mantendo cada repositório público com pegada técnica e documentada
-```
-
-<img src="https://capsule-render.vercel.app/api?type=rect&color=0:7a0f0f,100:000000&height=3&width=100%" width="100%" alt="divider" />
-
-## <img src="https://em-content.zobj.net/source/apple/391/warning_26a0-fe0f.png" width="22"/> Ética Operacional
-
-> Segurança ofensiva séria exige contexto, precisão técnica e responsabilidade.
-
-- Toda atividade ofensiva demonstrada aqui pressupõe **autorização explícita**.
-- Divulgação responsável, respeito à privacidade e à legislação vigente.
-- O conhecimento ofensivo existe para **elevar a defesa**, não para violá-la.
-
-<br/>
-
-<div align="center">
-
-### <img src="https://em-content.zobj.net/source/apple/391/skull-and-crossbones_2620-fe0f.png" width="22"/> Conecte-se
-
-<a href="https://www.escanearcplx.com"><img src="https://img.shields.io/badge/Portfólio-000000?style=for-the-badge&logo=vercel&logoColor=C0392B" /></a>
-<a href="https://github.com/excanear"><img src="https://img.shields.io/badge/GitHub-000000?style=for-the-badge&logo=github&logoColor=C0392B" /></a>
-
-<br/><br/>
-
-<sub><i>"Segurança não é um produto. É um processo contínuo."</i></sub>
-
-</div>
-
-<img src="https://capsule-render.vercel.app/api?type=waving&color=0:000000,50:7a0f0f,100:000000&height=120&section=footer&width=100%" width="100%" alt="footer" />
-
-</div>
+<p align="center">
+  <a href="https://www.escanearcplx.com"><img src="assets/colofao.svg" alt="O conhecimento ofensivo existe para fortalecer a defesa, não para violá-la. — escanearcplx.com" width="100%"></a>
+</p>
