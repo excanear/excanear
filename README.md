@@ -8,11 +8,13 @@
 
 &nbsp;
 
-Pesquisa ofensiva, engenharia de baixo nível e investigação forense. O foco não é demonstrar uma vulnerabilidade — é entregar a ferramenta que a encontra, a explora e, no fim, fortalece a defesa. Cada projeto aqui começa de uma pergunta simples: *como isso funciona por baixo?*
+**Security researcher e engenheiro de baixo nível.** Trabalho em segurança ofensiva, engenharia reversa e forense digital — e construo as ferramentas que sustentam esse trabalho. O interesse não para na prova de conceito: desce até o binário, o kernel e o protocolo, sempre respondendo à mesma pergunta — *como isso funciona por baixo?*
 
 &nbsp;
 
 ## Perímetro
+
+<sub>Cinco frentes, um perímetro. Onde a segurança ofensiva encontra a engenharia de sistemas.</sub>
 
 <p align="center">
   <img src="assets/radar.svg" alt="Cinco frentes: 01 Offensive/Red Team — pentest, recon, CVE, fuzzing · 02 Application Security — OWASP, injeção, XSS, SSRF · 03 Reverse Engineering — malware, binário, firmware, DLL hijacking · 04 Forense/DFIR — memória, disco, rede, Android, incident response · 05 Baixo nível/Kernel — kernel, hypervisors, drivers, criptografia" width="100%">
@@ -78,6 +80,16 @@ Pesquisa ofensiva, engenharia de baixo nível e investigação forense. O foco n
   </tbody>
 </table>
 
+<img src="assets/divider.svg" alt="" width="100%">
+
+## Em foco
+
+Direção atual da pesquisa e do tooling — do userspace ao kernel.
+
+- **Rust para segurança de sistemas** — [OSIRIS](https://github.com/excanear/OSIRIS---Operational-System-Intelligence-Response-Investigation-System) (inteligência e resposta operacional) e [Network&nbsp;Kernel&nbsp;Driver](https://github.com/excanear/Network-Kernel-Driver), levando tooling confiável para perto do kernel.
+- **Inteligência de vulnerabilidades em escala** — [CVEs&nbsp;Enterprise&nbsp;System](https://github.com/excanear/CVEs-Enterprise-System): correlação e gestão de CVE como sistema, não como script.
+- **Criptografia de baixo nível** — [Sistema de Criptografia Avançada](https://github.com/excanear/Sistema-de-Criptografia-e-Descriptografia-Avancada-Open-Source) implementado em Assembly, para entender a primitiva, não só usá-la.
+
 <details>
 <summary><sub><b>Credenciais técnicas</b></sub></summary>
 
@@ -120,8 +132,16 @@ Pesquisa ofensiva, engenharia de baixo nível e investigação forense. O foco n
 
 <img src="assets/divider.svg" alt="" width="100%">
 
+## Ética operacional
+
+> Ferramentas e pesquisa publicadas aqui existem para uso autorizado, estudo e para fortalecer a defesa. Conhecimento ofensivo serve para elevar a proteção — nunca para violá-la.
+
 &nbsp;
 
 <p align="center">
   <a href="https://www.escanearcplx.com"><img src="assets/colofao.svg" alt="O conhecimento ofensivo existe para fortalecer a defesa, não para violá-la. — escanearcplx.com" width="100%"></a>
+</p>
+
+<p align="center">
+  <sub><a href="https://www.escanearcplx.com"><code>escanearcplx.com</code></a></sub>
 </p>
