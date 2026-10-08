@@ -14,54 +14,19 @@ Pesquisa ofensiva, engenharia de baixo nível e investigação forense. O foco n
 
 ## Perímetro
 
-<table>
-  <thead>
-    <tr>
-      <th align="left"><sub>#</sub></th>
-      <th align="left"><sub>FRENTE</sub></th>
-      <th align="left"><sub>ESCOPO</sub></th>
-      <th align="left"><sub>INSTRUMENTO</sub></th>
-    </tr>
-  </thead>
-  <tbody>
-    <tr>
-      <td><code>01</code></td>
-      <td><b>Offensive · Red Team</b></td>
-      <td>Pentest, recon em escala, pesquisa de CVE, fuzzing</td>
-      <td><sub><code>Nmap · Burp · ffuf · Metasploit</code></sub></td>
-    </tr>
-    <tr>
-      <td><code>02</code></td>
-      <td><b>Application Security</b></td>
-      <td>Metodologia OWASP, controle de acesso, injeção, XSS, SSRF, tooling defensivo</td>
-      <td><sub><code>OWASP ZAP · Burp · Python</code></sub></td>
-    </tr>
-    <tr>
-      <td><code>03</code></td>
-      <td><b>Reverse Engineering</b></td>
-      <td>Análise de malware, binário e firmware, DLL hijacking</td>
-      <td><sub><code>C · C++ · x86-64</code></sub></td>
-    </tr>
-    <tr>
-      <td><code>04</code></td>
-      <td><b>Forense · DFIR</b></td>
-      <td>Memória, disco, rede e Android; resposta a incidentes</td>
-      <td><sub><code>C# · Python</code></sub></td>
-    </tr>
-    <tr>
-      <td><code>05</code></td>
-      <td><b>Baixo nível · Kernel</b></td>
-      <td>Kernel, hypervisors, drivers, criptografia aplicada</td>
-      <td><sub><code>C · Assembly · Rust</code></sub></td>
-    </tr>
-  </tbody>
-</table>
+<p align="center">
+  <img src="assets/radar.svg" alt="Cinco frentes: 01 Offensive/Red Team — pentest, recon, CVE, fuzzing · 02 Application Security — OWASP, injeção, XSS, SSRF · 03 Reverse Engineering — malware, binário, firmware, DLL hijacking · 04 Forense/DFIR — memória, disco, rede, Android, incident response · 05 Baixo nível/Kernel — kernel, hypervisors, drivers, criptografia" width="100%">
+</p>
 
 <img src="assets/divider.svg" alt="" width="100%">
 
 ## Arsenal
 
 > Seleção. O índice completo fica ao final.
+
+<p align="center">
+  <img src="assets/terminal.svg" alt="ls ~/arsenal: OWASP-Bypass (106/107 Juice Shop), Web-Recon-Platform, devkit (100% Assembly), OSIRIS, Network-Kernel-Driver, Sysinfo-Shell" width="100%">
+</p>
 
 <table>
   <tbody>

@@ -1,0 +1,54 @@
+<svg width="900" height="300" viewBox="0 0 900 300" fill="none" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Perímetro — cinco frentes de atuação">
+  <defs>
+    <style>.mono{font-family:'JetBrains Mono','SF Mono','Consolas',ui-monospace,monospace;}.b{font-weight:700;}</style>
+    <filter id="g2" x="-60%" y="-60%" width="220%" height="220%"><feGaussianBlur stdDeviation="2.6" result="b"/><feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge></filter>
+    <linearGradient id="sweepg" x1="0" y1="0" x2="1" y2="0"><stop offset="0%" stop-color="#4cc2d4" stop-opacity="0"/><stop offset="100%" stop-color="#4cc2d4" stop-opacity="0.85"/></linearGradient>
+  </defs>
+
+  <rect x="2" y="2" width="896" height="296" rx="10" fill="#0b0d10" stroke="#1f242b" stroke-width="1.5"/>
+
+  <!-- radar -->
+  <g transform="translate(160,150)">
+    <circle r="120" fill="none" stroke="#1a2228" stroke-width="1"/>
+    <circle r="80" fill="none" stroke="#161d22" stroke-width="1"/>
+    <circle r="40" fill="none" stroke="#161d22" stroke-width="1"/>
+    <line x1="-120" y1="0" x2="120" y2="0" stroke="#151c21" stroke-width="1"/>
+    <line x1="0" y1="-120" x2="0" y2="120" stroke="#151c21" stroke-width="1"/>
+    <!-- sweep: plays once fast, then slow ambient loop -->
+    <g>
+      <line x1="0" y1="0" x2="120" y2="0" stroke="url(#sweepg)" stroke-width="2" filter="url(#g2)">
+        <animateTransform attributeName="transform" type="rotate" from="-90" to="270" begin="0s" dur="2.4s" calcMode="spline" keySplines="0.3 0 0.2 1" fill="freeze"/>
+        <animateTransform attributeName="transform" type="rotate" from="0" to="360" begin="2.4s" dur="6s" repeatCount="indefinite" additive="replace"/>
+      </line>
+    </g>
+    <!-- blips light as the sweep passes -->
+    <circle cx="0" cy="-104" r="4" fill="#e8a33d" filter="url(#g2)" opacity="0"><animate attributeName="opacity" values="0;1;0.5" dur="1.6s" begin="0.5s" fill="freeze"/></circle>
+    <circle cx="99" cy="-55" r="4" fill="#e8a33d" filter="url(#g2)" opacity="0"><animate attributeName="opacity" values="0;1;0.5" dur="1.6s" begin="0.86s" fill="freeze"/></circle>
+    <circle cx="104" cy="40" r="4" fill="#e8a33d" filter="url(#g2)" opacity="0"><animate attributeName="opacity" values="0;1;0.5" dur="1.6s" begin="1.22s" fill="freeze"/></circle>
+    <circle cx="36" cy="105" r="4" fill="#e8a33d" filter="url(#g2)" opacity="0"><animate attributeName="opacity" values="0;1;0.5" dur="1.6s" begin="1.58s" fill="freeze"/></circle>
+    <circle cx="-88" cy="68" r="4" fill="#e8a33d" filter="url(#g2)" opacity="0"><animate attributeName="opacity" values="0;1;0.5" dur="1.6s" begin="1.94s" fill="freeze"/></circle>
+    <circle r="3" fill="#4cc2d4"/>
+  </g>
+
+  <!-- labels ignite in sync -->
+  <g class="mono">
+    <text x="360" y="40" font-size="10.5" fill="#6b7682" letter-spacing="2">PERÍMETRO · CINCO FRENTES</text>
+    <g font-size="15">
+      <g opacity="0"><animate attributeName="opacity" from="0" to="1" begin="0.5s" dur="0.4s" fill="freeze"/>
+        <text x="360" y="78" class="b" fill="#e8a33d">01</text><text x="392" y="78" class="b" fill="#e9edf2">Offensive · Red Team</text>
+        <text x="392" y="96" font-size="11.5" fill="#8b949e">Pentest · recon em escala · CVE · fuzzing</text></g>
+      <g opacity="0"><animate attributeName="opacity" from="0" to="1" begin="0.86s" dur="0.4s" fill="freeze"/>
+        <text x="360" y="124" class="b" fill="#e8a33d">02</text><text x="392" y="124" class="b" fill="#e9edf2">Application Security</text>
+        <text x="392" y="142" font-size="11.5" fill="#8b949e">OWASP · injeção · XSS · SSRF · tooling</text></g>
+      <g opacity="0"><animate attributeName="opacity" from="0" to="1" begin="1.22s" dur="0.4s" fill="freeze"/>
+        <text x="360" y="170" class="b" fill="#e8a33d">03</text><text x="392" y="170" class="b" fill="#e9edf2">Reverse Engineering</text>
+        <text x="392" y="188" font-size="11.5" fill="#8b949e">Malware · binário · firmware · DLL hijack</text></g>
+      <g opacity="0"><animate attributeName="opacity" from="0" to="1" begin="1.58s" dur="0.4s" fill="freeze"/>
+        <text x="360" y="216" class="b" fill="#e8a33d">04</text><text x="392" y="216" class="b" fill="#e9edf2">Forense · DFIR</text>
+        <text x="392" y="234" font-size="11.5" fill="#8b949e">Memória · disco · rede · Android · IR</text></g>
+      <g opacity="0"><animate attributeName="opacity" from="0" to="1" begin="1.94s" dur="0.4s" fill="freeze"/>
+        <text x="360" y="262" class="b" fill="#e8a33d">05</text><text x="392" y="262" class="b" fill="#e9edf2">Baixo nível · Kernel</text>
+        <text x="392" y="280" font-size="11.5" fill="#8b949e">Kernel · hypervisors · drivers · cripto</text></g>
+    </g>
+  </g>
+</svg>
