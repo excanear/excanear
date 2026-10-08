@@ -6,6 +6,10 @@
   <sub><code>Segurança ofensiva e engenharia de baixo nível — eu construo a ferramenta, não só a prova de conceito.</code></sub>
 </p>
 
+<p align="center">
+  <img src="assets/identity.svg" alt="CyberSecurity · Red Team · DFIR · Reverse Engineering · Low-Level · Software Engineering" width="100%">
+</p>
+
 &nbsp;
 
 **Security researcher e engenheiro de baixo nível.** Trabalho em segurança ofensiva, engenharia reversa e forense digital — e construo as ferramentas que sustentam esse trabalho. O interesse não para na prova de conceito: desce até o binário, o kernel e o protocolo, sempre respondendo à mesma pergunta — *como isso funciona por baixo?*
@@ -33,26 +37,32 @@
 <table>
   <tbody>
     <tr>
-      <td width="30%"><a href="https://github.com/excanear/OWASP-Bypass"><b>OWASP&nbsp;Bypass</b></a><br><sub><code>Python</code></sub></td>
+      <td align="center"><sub><code>01</code></sub></td>
+      <td width="26%"><a href="https://github.com/excanear/OWASP-Bypass"><b>OWASP&nbsp;Bypass</b></a><br><sub><code>Python</code></sub></td>
       <td>Engine autônomo de exploração web. <b>106 de 107</b> desafios do OWASP Juice Shop resolvidos de ponta a ponta.</td>
     </tr>
     <tr>
+      <td align="center"><sub><code>02</code></sub></td>
       <td><a href="https://github.com/excanear/Web-Application-Reconnaissance-Investigation-Platform"><b>Web&nbsp;Recon&nbsp;Platform</b></a><br><sub><code>Python</code></sub></td>
       <td>CLI de reconhecimento ofensivo: fingerprint real de tecnologia e versão, correlacionado a CVEs via NVD.</td>
     </tr>
     <tr>
+      <td align="center"><sub><code>03</code></sub></td>
       <td><a href="https://github.com/excanear/devkit"><b>DEVKIT</b></a><br><sub><code>Assembly</code></sub></td>
       <td>Toolkit de terminal escrito em <b>100% Assembly x86-64</b> — estático, sem uma única dependência.</td>
     </tr>
     <tr>
+      <td align="center"><sub><code>04</code></sub></td>
       <td><a href="https://github.com/excanear/OSIRIS---Operational-System-Intelligence-Response-Investigation-System"><b>OSIRIS</b></a><br><sub><code>Rust</code></sub></td>
       <td>Operational System Intelligence &amp; Response — inteligência operacional e investigação de sistema.</td>
     </tr>
     <tr>
+      <td align="center"><sub><code>05</code></sub></td>
       <td><a href="https://github.com/excanear/Network-Kernel-Driver"><b>Network&nbsp;Kernel&nbsp;Driver</b></a><br><sub><code>Rust</code></sub></td>
       <td>Driver de rede em nível de kernel — interceptação e inspeção abaixo do userspace.</td>
     </tr>
     <tr>
+      <td align="center"><sub><code>06</code></sub></td>
       <td><a href="https://github.com/excanear/Sysinfo-Shell"><b>Sysinfo&nbsp;Shell</b></a><br><sub><code>Shell</code></sub></td>
       <td>System info em shell POSIX puro, zero dependências: Linux, Windows, WSL, Git Bash e MSYS2.</td>
     </tr>
