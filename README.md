@@ -1,38 +1,16 @@
-<p align="center">
-  <img src="assets/banner.svg" alt="excanear — Segurança ofensiva e engenharia de baixo nível" width="100%">
-</p>
-
-<p align="center">
-  <sub><code>Segurança ofensiva e engenharia de baixo nível — eu construo a ferramenta, não só a prova de conceito.</code></sub>
-</p>
-
-<p align="center">
-  <img src="assets/identity.svg" alt="CyberSecurity · Red Team · DFIR · Reverse Engineering · Low-Level · Software Engineering" width="100%">
-</p>
+<img src="assets/masthead.svg" alt="excanear — Security Researcher e Low-Level Engineer · 2022—present" width="100%">
 
 &nbsp;
 
-**Security researcher e engenheiro de baixo nível.** Trabalho em segurança ofensiva, engenharia reversa e forense digital — e construo as ferramentas que sustentam esse trabalho. O interesse não para na prova de conceito: desce até o binário, o kernel e o protocolo, sempre respondendo à mesma pergunta — *como isso funciona por baixo?*
+**Segurança ofensiva, engenharia reversa e forense digital** — e as ferramentas que sustentam esse trabalho. O interesse não para na prova de conceito: desce até o binário, o kernel e o protocolo, sempre respondendo à mesma pergunta — *como isso funciona por baixo?*
 
 &nbsp;
 
-## Perímetro
+<img src="assets/index.svg" alt="Áreas de atuação: 01 Offensive/Red Team · 02 Application Security · 03 Reverse Engineering · 04 Forensics/DFIR · 05 Low-Level/Kernel" width="100%">
 
-<sub>Cinco frentes, um perímetro. Onde a segurança ofensiva encontra a engenharia de sistemas.</sub>
+&nbsp;
 
-<p align="center">
-  <img src="assets/radar.svg" alt="Cinco frentes: 01 Offensive/Red Team — pentest, recon, CVE, fuzzing · 02 Application Security — OWASP, injeção, XSS, SSRF · 03 Reverse Engineering — malware, binário, firmware, DLL hijacking · 04 Forense/DFIR — memória, disco, rede, Android, incident response · 05 Baixo nível/Kernel — kernel, hypervisors, drivers, criptografia" width="100%">
-</p>
-
-<img src="assets/divider.svg" alt="" width="100%">
-
-## Arsenal
-
-> Seleção. O índice completo fica ao final.
-
-<p align="center">
-  <img src="assets/terminal.svg" alt="ls ~/arsenal: OWASP-Bypass (106/107 Juice Shop), Web-Recon-Platform, devkit (100% Assembly), OSIRIS, Network-Kernel-Driver, Sysinfo-Shell" width="100%">
-</p>
+<img src="assets/h-work.svg" alt="01 / 03 — Selected Work" width="100%">
 
 <table>
   <tbody>
@@ -69,36 +47,45 @@
   </tbody>
 </table>
 
-<img src="assets/divider.svg" alt="" width="100%">
+<details>
+<summary><sub><b>Arquivo completo — 40 repositórios</b></sub></summary>
 
-## Instrumentação
+<br>
+
+<sub>
+
+**Ofensivo · AppSec** — `CVEs-Enterprise-System` · `Escanearcpl-Exploit-Tools` · `Hacking-Framework` · `Fuzzer-Vuln` · `PortScan-CPLX` · `WebScan` · `Crawler-de-Subdominios` · `Scanner-de-Portas`
+
+**Reverse · Baixo nível** — `DLL-Hijacking-System` · `HyperVisor-Open-Source` · `Project-REXA` · `Arquitetura-de-CPU`
+
+**Forense · DFIR** — `android-forensics-suite` · `Ferramenta-de-Analise-Forense-de-Memoria-e-Rede` · `Ferramenta-de-chunked-file-carving` · `Raw-Disk-Viwer-CPLX`
+
+**Criptografia** — `Sistema-de-Criptografia-e-Descriptografia-Avancada-Open-Source` · `Criptografia-e-descriptografia-de-arquivos-AES` · `Gerador-de-Senhas-Hash`
+
+</sub>
+
+</details>
+
+&nbsp;
+
+<img src="assets/h-stack.svg" alt="02 / 03 — Stack" width="100%">
 
 <table>
-  <thead>
-    <tr>
-      <th align="left"><sub>LINGUAGENS</sub></th>
-      <th align="left"><sub>OFENSIVO · REDE</sub></th>
-      <th align="left"><sub>ENGENHARIA · WEB</sub></th>
-    </tr>
-  </thead>
   <tbody>
     <tr valign="top">
-      <td><sub><code>Python</code> <code>C</code> <code>C++</code> <code>C#</code><br><code>Go</code> <code>Rust</code> <code>Java</code> <code>Assembly</code></sub></td>
-      <td><sub><code>Nmap</code> <code>Wireshark</code> <code>Burp&nbsp;Suite</code><br><code>OWASP&nbsp;ZAP</code> <code>ffuf</code> <code>Gobuster</code><br><code>Metasploit</code> <code>Kali&nbsp;Linux</code></sub></td>
-      <td><sub><code>Docker</code> <code>Linux</code> <code>Git</code><br><code>React</code> <code>Next.js</code> <code>TypeScript</code><br><code>Tailwind</code> <code>GSAP</code></sub></td>
+      <td width="22%"><sub><b>LINGUAGENS</b></sub></td>
+      <td><sub><code>Python</code> <code>C</code> <code>C++</code> <code>C#</code> <code>Go</code> <code>Rust</code> <code>Java</code> <code>Assembly</code></sub></td>
+    </tr>
+    <tr valign="top">
+      <td><sub><b>OFENSIVO · REDE</b></sub></td>
+      <td><sub><code>Nmap</code> <code>Wireshark</code> <code>Burp&nbsp;Suite</code> <code>OWASP&nbsp;ZAP</code> <code>ffuf</code> <code>Gobuster</code> <code>Metasploit</code> <code>Kali&nbsp;Linux</code></sub></td>
+    </tr>
+    <tr valign="top">
+      <td><sub><b>ENGENHARIA · WEB</b></sub></td>
+      <td><sub><code>Docker</code> <code>Linux</code> <code>Git</code> <code>React</code> <code>Next.js</code> <code>TypeScript</code> <code>Tailwind</code> <code>GSAP</code></sub></td>
     </tr>
   </tbody>
 </table>
-
-<img src="assets/divider.svg" alt="" width="100%">
-
-## Em foco
-
-Direção atual da pesquisa e do tooling — do userspace ao kernel.
-
-- **Rust para segurança de sistemas** — [OSIRIS](https://github.com/excanear/OSIRIS---Operational-System-Intelligence-Response-Investigation-System) (inteligência e resposta operacional) e [Network&nbsp;Kernel&nbsp;Driver](https://github.com/excanear/Network-Kernel-Driver), levando tooling confiável para perto do kernel.
-- **Inteligência de vulnerabilidades em escala** — [CVEs&nbsp;Enterprise&nbsp;System](https://github.com/excanear/CVEs-Enterprise-System): correlação e gestão de CVE como sistema, não como script.
-- **Criptografia de baixo nível** — [Sistema de Criptografia Avançada](https://github.com/excanear/Sistema-de-Criptografia-e-Descriptografia-Avancada-Open-Source) implementado em Assembly, para entender a primitiva, não só usá-la.
 
 <details>
 <summary><sub><b>Credenciais técnicas</b></sub></summary>
@@ -121,37 +108,18 @@ Direção atual da pesquisa e do tooling — do userspace ao kernel.
 
 </details>
 
-<details>
-<summary><sub><b>Índice completo do arsenal</b></sub></summary>
+&nbsp;
 
-<br>
+<img src="assets/h-research.svg" alt="03 / 03 — In Progress" width="100%">
 
-<sub>
+Direção atual da pesquisa e do tooling — do userspace ao kernel.
 
-**Ofensivo · AppSec** — `CVEs-Enterprise-System` · `Escanearcpl-Exploit-Tools` · `Hacking-Framework` · `Fuzzer-Vuln` · `PortScan-CPLX` · `WebScan` · `Crawler-de-Subdominios` · `Scanner-de-Portas`
-
-**Reverse · Baixo nível** — `DLL-Hijacking-System` · `HyperVisor-Open-Source` · `Project-REXA` · `Arquitetura-de-CPU` · `Network-Kernel-Driver`
-
-**Forense · DFIR** — `android-forensics-suite` · `Ferramenta-de-Analise-Forense-de-Memoria-e-Rede` · `Ferramenta-de-chunked-file-carving` · `Raw-Disk-Viwer-CPLX`
-
-**Criptografia** — `Sistema-de-Criptografia-e-Descriptografia-Avancada` · `Criptografia-AES` · `Gerador-de-Senhas-Hash`
-
-</sub>
-
-</details>
-
-<img src="assets/divider.svg" alt="" width="100%">
-
-## Ética operacional
-
-> Ferramentas e pesquisa publicadas aqui existem para uso autorizado, estudo e para fortalecer a defesa. Conhecimento ofensivo serve para elevar a proteção — nunca para violá-la.
+- **Rust para segurança de sistemas** — [OSIRIS](https://github.com/excanear/OSIRIS---Operational-System-Intelligence-Response-Investigation-System) e [Network&nbsp;Kernel&nbsp;Driver](https://github.com/excanear/Network-Kernel-Driver): tooling confiável levado para perto do kernel.
+- **Inteligência de vulnerabilidades em escala** — [CVEs&nbsp;Enterprise&nbsp;System](https://github.com/excanear/CVEs-Enterprise-System): correlação e gestão de CVE como sistema, não como script.
+- **Criptografia de baixo nível** — [Criptografia Avançada](https://github.com/excanear/Sistema-de-Criptografia-e-Descriptografia-Avancada-Open-Source) implementada em Assembly, para entender a primitiva, não só usá-la.
 
 &nbsp;
 
-<p align="center">
-  <a href="https://www.escanearcplx.com"><img src="assets/colofao.svg" alt="O conhecimento ofensivo existe para fortalecer a defesa, não para violá-la. — escanearcplx.com" width="100%"></a>
-</p>
+<a href="https://www.escanearcplx.com"><img src="assets/footer.svg" alt="O conhecimento ofensivo existe para fortalecer a defesa — nunca para violá-la. · EXCANEAR · escanearcplx.com" width="100%"></a>
 
-<p align="center">
-  <sub><a href="https://www.escanearcplx.com"><code>escanearcplx.com</code></a></sub>
-</p>
+<p align="right"><sub><a href="https://www.escanearcplx.com"><code>escanearcplx.com</code></a></sub></p>

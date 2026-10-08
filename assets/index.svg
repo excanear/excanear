@@ -1,0 +1,40 @@
+<svg width="900" height="322" viewBox="0 0 900 322" fill="none" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Áreas de atuação: 01 Offensive/Red Team, 02 Application Security, 03 Reverse Engineering, 04 Forensics/DFIR, 05 Low-Level/Kernel">
+  <defs><style>
+    .n{font-family:'Arial Black','Helvetica Neue',Arial,sans-serif;font-weight:900;}
+    .s{font-family:'Helvetica Neue',Arial,sans-serif;font-weight:700;}
+    .m{font-family:'JetBrains Mono','SF Mono',Consolas,ui-monospace,monospace;}
+  </style></defs>
+  <rect width="900" height="322" fill="#0b0b0c"/>
+
+  <text x="0" y="22" class="m" font-size="12" fill="#8a8a8a" letter-spacing="3">ÁREAS DE ATUAÇÃO</text>
+  <text x="900" y="22" text-anchor="end" class="m" font-size="12" fill="#8a8a8a" letter-spacing="3">05 FRENTES / 01 PERÍMETRO</text>
+
+  <g>
+    <!-- row template -->
+    <line x1="0" y1="44" x2="900" y2="44" stroke="#262627"/>
+    <text x="0" y="86" class="n" font-size="34" fill="#2e2e30">01</text>
+    <text x="64" y="80" class="s" font-size="21" fill="#f2f2f0">OFFENSIVE / RED TEAM</text>
+    <text x="900" y="80" text-anchor="end" class="m" font-size="12.5" fill="#8a8a8a">pentest · recon · CVE · fuzzing</text>
+
+    <line x1="0" y1="98" x2="900" y2="98" stroke="#262627"/>
+    <text x="0" y="140" class="n" font-size="34" fill="#2e2e30">02</text>
+    <text x="64" y="134" class="s" font-size="21" fill="#f2f2f0">APPLICATION SECURITY</text>
+    <text x="900" y="134" text-anchor="end" class="m" font-size="12.5" fill="#8a8a8a">OWASP · injeção · XSS · SSRF</text>
+
+    <line x1="0" y1="152" x2="900" y2="152" stroke="#262627"/>
+    <text x="0" y="194" class="n" font-size="34" fill="#2e2e30">03</text>
+    <text x="64" y="188" class="s" font-size="21" fill="#f2f2f0">REVERSE ENGINEERING</text>
+    <text x="900" y="188" text-anchor="end" class="m" font-size="12.5" fill="#8a8a8a">malware · binário · firmware · DLL</text>
+
+    <line x1="0" y1="206" x2="900" y2="206" stroke="#262627"/>
+    <text x="0" y="248" class="n" font-size="34" fill="#2e2e30">04</text>
+    <text x="64" y="242" class="s" font-size="21" fill="#f2f2f0">FORENSICS / DFIR</text>
+    <text x="900" y="242" text-anchor="end" class="m" font-size="12.5" fill="#8a8a8a">memória · disco · rede · Android · IR</text>
+
+    <line x1="0" y1="260" x2="900" y2="260" stroke="#262627"/>
+    <text x="0" y="302" class="n" font-size="34" fill="#e5502a">05</text>
+    <text x="64" y="296" class="s" font-size="21" fill="#f2f2f0">LOW-LEVEL / KERNEL</text>
+    <text x="900" y="296" text-anchor="end" class="m" font-size="12.5" fill="#8a8a8a">kernel · hypervisors · drivers · cripto</text>
+    <line x1="0" y1="314" x2="900" y2="314" stroke="#262627"/>
+  </g>
+</svg>
