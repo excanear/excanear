@@ -1,8 +1,0 @@
-<svg width="900" height="66" viewBox="0 0 900 66" fill="none" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="02 — Stack">
-  <defs><style>.d{font-family:'Helvetica Neue',Arial,sans-serif;font-weight:800;}.m{font-family:'JetBrains Mono',Consolas,ui-monospace,monospace;}</style></defs>
-  <rect width="900" height="66" fill="#0b0b0c"/>
-  <text x="0" y="22" class="m" font-size="12" fill="#8a8a8a" letter-spacing="3">§ 02 / 03</text>
-  <text x="0" y="54" class="d" font-size="34" fill="#f2f2f0" letter-spacing="-0.5">STACK</text>
-  <rect x="132" y="43" width="46" height="4" fill="#e5502a"/>
-  <line x1="184" y1="45" x2="900" y2="45" stroke="#262627"/>
-</svg>

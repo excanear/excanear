@@ -1,40 +1,38 @@
-<svg width="900" height="322" viewBox="0 0 900 322" fill="none" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Áreas de atuação: 01 Offensive/Red Team, 02 Application Security, 03 Reverse Engineering, 04 Forensics/DFIR, 05 Low-Level/Kernel">
+<svg width="900" height="352" viewBox="0 0 900 352" fill="none" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Áreas de atuação: 01 Offensive/Red Team, 02 Application Security, 03 Reverse Engineering, 04 Forensics/DFIR, 05 Low-Level/Kernel">
   <defs><style>
     .n{font-family:'Arial Black','Helvetica Neue',Arial,sans-serif;font-weight:900;}
     .s{font-family:'Helvetica Neue',Arial,sans-serif;font-weight:700;}
     .m{font-family:'JetBrains Mono','SF Mono',Consolas,ui-monospace,monospace;}
   </style></defs>
-  <rect width="900" height="322" fill="#0b0b0c"/>
+  <rect width="900" height="352" fill="#0b0b0c"/>
 
-  <text x="0" y="22" class="m" font-size="12" fill="#8a8a8a" letter-spacing="3">ÁREAS DE ATUAÇÃO</text>
-  <text x="900" y="22" text-anchor="end" class="m" font-size="12" fill="#8a8a8a" letter-spacing="3">05 FRENTES / 01 PERÍMETRO</text>
+  <text x="0" y="22" class="m" font-size="12.5" fill="#9a9a9a" letter-spacing="3">ÁREAS DE ATUAÇÃO</text>
+  <text x="900" y="22" text-anchor="end" class="m" font-size="12.5" fill="#9a9a9a" letter-spacing="3">05 FRENTES / 01 PERÍMETRO</text>
+  <line x1="0" y1="40" x2="900" y2="40" stroke="#333335"/>
 
-  <g>
-    <!-- row template -->
-    <line x1="0" y1="44" x2="900" y2="44" stroke="#262627"/>
-    <text x="0" y="86" class="n" font-size="34" fill="#2e2e30">01</text>
-    <text x="64" y="80" class="s" font-size="21" fill="#f2f2f0">OFFENSIVE / RED TEAM</text>
-    <text x="900" y="80" text-anchor="end" class="m" font-size="12.5" fill="#8a8a8a">pentest · recon · CVE · fuzzing</text>
+  <!-- left accent progress bar -->
+  <rect x="0" y="40" width="4" height="0" fill="#ff512e">
+    <animate attributeName="height" from="0" to="310" begin="0.15s" dur="1.1s" calcMode="spline" keySplines="0.3 0 0.2 1" fill="freeze"/>
+  </rect>
 
-    <line x1="0" y1="98" x2="900" y2="98" stroke="#262627"/>
-    <text x="0" y="140" class="n" font-size="34" fill="#2e2e30">02</text>
-    <text x="64" y="134" class="s" font-size="21" fill="#f2f2f0">APPLICATION SECURITY</text>
-    <text x="900" y="134" text-anchor="end" class="m" font-size="12.5" fill="#8a8a8a">OWASP · injeção · XSS · SSRF</text>
+  <g class="s" font-size="24">
+    <g opacity="0"><animate attributeName="opacity" from="0" to="1" begin="0.2s" dur="0.45s" fill="freeze"/><animateTransform attributeName="transform" type="translate" from="14 0" to="0 0" begin="0.2s" dur="0.5s" calcMode="spline" keySplines="0.2 1 0.3 1" fill="freeze"/>
+      <text x="26" y="92" class="n" font-size="42" fill="#ff512e">01</text><text x="104" y="86" fill="#f6f6f4">OFFENSIVE / RED TEAM</text><text x="900" y="86" text-anchor="end" class="m" font-weight="400" font-size="13.5" fill="#b6b6b4">pentest · recon · CVE · fuzzing</text></g>
+    <line x1="0" y1="110" x2="900" y2="110" stroke="#262627"/>
 
-    <line x1="0" y1="152" x2="900" y2="152" stroke="#262627"/>
-    <text x="0" y="194" class="n" font-size="34" fill="#2e2e30">03</text>
-    <text x="64" y="188" class="s" font-size="21" fill="#f2f2f0">REVERSE ENGINEERING</text>
-    <text x="900" y="188" text-anchor="end" class="m" font-size="12.5" fill="#8a8a8a">malware · binário · firmware · DLL</text>
+    <g opacity="0"><animate attributeName="opacity" from="0" to="1" begin="0.34s" dur="0.45s" fill="freeze"/><animateTransform attributeName="transform" type="translate" from="14 0" to="0 0" begin="0.34s" dur="0.5s" calcMode="spline" keySplines="0.2 1 0.3 1" fill="freeze"/>
+      <text x="26" y="156" class="n" font-size="42" fill="#ff512e">02</text><text x="104" y="150" fill="#f6f6f4">APPLICATION SECURITY</text><text x="900" y="150" text-anchor="end" class="m" font-weight="400" font-size="13.5" fill="#b6b6b4">OWASP · injeção · XSS · SSRF</text></g>
+    <line x1="0" y1="174" x2="900" y2="174" stroke="#262627"/>
 
-    <line x1="0" y1="206" x2="900" y2="206" stroke="#262627"/>
-    <text x="0" y="248" class="n" font-size="34" fill="#2e2e30">04</text>
-    <text x="64" y="242" class="s" font-size="21" fill="#f2f2f0">FORENSICS / DFIR</text>
-    <text x="900" y="242" text-anchor="end" class="m" font-size="12.5" fill="#8a8a8a">memória · disco · rede · Android · IR</text>
+    <g opacity="0"><animate attributeName="opacity" from="0" to="1" begin="0.48s" dur="0.45s" fill="freeze"/><animateTransform attributeName="transform" type="translate" from="14 0" to="0 0" begin="0.48s" dur="0.5s" calcMode="spline" keySplines="0.2 1 0.3 1" fill="freeze"/>
+      <text x="26" y="220" class="n" font-size="42" fill="#ff512e">03</text><text x="104" y="214" fill="#f6f6f4">REVERSE ENGINEERING</text><text x="900" y="214" text-anchor="end" class="m" font-weight="400" font-size="13.5" fill="#b6b6b4">malware · binário · firmware · DLL</text></g>
+    <line x1="0" y1="238" x2="900" y2="238" stroke="#262627"/>
 
-    <line x1="0" y1="260" x2="900" y2="260" stroke="#262627"/>
-    <text x="0" y="302" class="n" font-size="34" fill="#e5502a">05</text>
-    <text x="64" y="296" class="s" font-size="21" fill="#f2f2f0">LOW-LEVEL / KERNEL</text>
-    <text x="900" y="296" text-anchor="end" class="m" font-size="12.5" fill="#8a8a8a">kernel · hypervisors · drivers · cripto</text>
-    <line x1="0" y1="314" x2="900" y2="314" stroke="#262627"/>
+    <g opacity="0"><animate attributeName="opacity" from="0" to="1" begin="0.62s" dur="0.45s" fill="freeze"/><animateTransform attributeName="transform" type="translate" from="14 0" to="0 0" begin="0.62s" dur="0.5s" calcMode="spline" keySplines="0.2 1 0.3 1" fill="freeze"/>
+      <text x="26" y="284" class="n" font-size="42" fill="#ff512e">04</text><text x="104" y="278" fill="#f6f6f4">FORENSICS / DFIR</text><text x="900" y="278" text-anchor="end" class="m" font-weight="400" font-size="13.5" fill="#b6b6b4">memória · disco · rede · Android · IR</text></g>
+    <line x1="0" y1="302" x2="900" y2="302" stroke="#262627"/>
+
+    <g opacity="0"><animate attributeName="opacity" from="0" to="1" begin="0.76s" dur="0.45s" fill="freeze"/><animateTransform attributeName="transform" type="translate" from="14 0" to="0 0" begin="0.76s" dur="0.5s" calcMode="spline" keySplines="0.2 1 0.3 1" fill="freeze"/>
+      <text x="26" y="348" class="n" font-size="42" fill="#ff512e">05</text><text x="104" y="342" fill="#f6f6f4">LOW-LEVEL / KERNEL</text><text x="900" y="342" text-anchor="end" class="m" font-weight="400" font-size="13.5" fill="#b6b6b4">kernel · hypervisors · drivers · cripto</text></g>
   </g>
 </svg>

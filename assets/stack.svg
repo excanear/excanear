@@ -1,0 +1,31 @@
+<svg width="900" height="250" viewBox="0 0 900 250" fill="none" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Stack: linguagens, ferramentas ofensivas e de rede, engenharia e web">
+  <defs><style>
+    .d{font-family:'Helvetica Neue',Arial,sans-serif;font-weight:800;}
+    .l{font-family:'Helvetica Neue',Arial,sans-serif;font-weight:700;}
+    .m{font-family:'JetBrains Mono','SF Mono',Consolas,ui-monospace,monospace;}
+  </style></defs>
+  <rect width="900" height="250" fill="#0b0b0c"/>
+
+  <text x="0" y="22" class="m" font-size="12.5" fill="#9a9a9a" letter-spacing="3">§ 02 / 03</text>
+  <text x="0" y="54" class="d" font-size="36" fill="#f6f6f4" letter-spacing="-0.5">STACK</text>
+  <rect x="132" y="42" width="52" height="5" fill="#ff512e"><animate attributeName="width" from="0" to="52" begin="0.2s" dur="0.5s" fill="freeze"/></rect>
+  <line x1="192" y1="44.5" x2="900" y2="44.5" stroke="#333335"/>
+
+  <g>
+    <g opacity="0"><animate attributeName="opacity" from="0" to="1" begin="0.3s" dur="0.45s" fill="freeze"/><animateTransform attributeName="transform" type="translate" from="0 8" to="0 0" begin="0.3s" dur="0.5s" calcMode="spline" keySplines="0.2 1 0.3 1" fill="freeze"/>
+      <line x1="0" y1="90" x2="900" y2="90" stroke="#262627"/>
+      <text x="0" y="122" class="l" font-size="16" fill="#f6f6f4">LINGUAGENS</text>
+      <text x="196" y="122" class="m" font-size="14.5" fill="#c6c6c4">Python · C · C++ · C# · Go · Rust · Java · Assembly</text></g>
+
+    <g opacity="0"><animate attributeName="opacity" from="0" to="1" begin="0.44s" dur="0.45s" fill="freeze"/><animateTransform attributeName="transform" type="translate" from="0 8" to="0 0" begin="0.44s" dur="0.5s" calcMode="spline" keySplines="0.2 1 0.3 1" fill="freeze"/>
+      <line x1="0" y1="146" x2="900" y2="146" stroke="#262627"/>
+      <text x="0" y="178" class="l" font-size="16" fill="#f6f6f4">OFENSIVO · REDE</text>
+      <text x="196" y="178" class="m" font-size="14.5" fill="#c6c6c4">Nmap · Wireshark · Burp Suite · OWASP ZAP · ffuf · Gobuster · Metasploit · Kali</text></g>
+
+    <g opacity="0"><animate attributeName="opacity" from="0" to="1" begin="0.58s" dur="0.45s" fill="freeze"/><animateTransform attributeName="transform" type="translate" from="0 8" to="0 0" begin="0.58s" dur="0.5s" calcMode="spline" keySplines="0.2 1 0.3 1" fill="freeze"/>
+      <line x1="0" y1="202" x2="900" y2="202" stroke="#262627"/>
+      <text x="0" y="234" class="l" font-size="16" fill="#f6f6f4">ENGENHARIA · WEB</text>
+      <text x="196" y="234" class="m" font-size="14.5" fill="#c6c6c4">Docker · Linux · Git · React · Next.js · TypeScript · Tailwind · GSAP</text>
+      <line x1="0" y1="248" x2="900" y2="248" stroke="#262627"/></g>
+  </g>
+</svg>

@@ -10,42 +10,9 @@
 
 &nbsp;
 
-<img src="assets/h-work.svg" alt="01 / 03 — Selected Work" width="100%">
+<img src="assets/work.svg" alt="Selected Work: 01 OWASP Bypass (106/107 OWASP Juice Shop) · 02 Web Recon Platform (correlação de CVE via NVD) · 03 DEVKIT (100% Assembly x86-64) · 04 OSIRIS · 05 Network Kernel Driver · 06 Sysinfo Shell" width="100%">
 
-<table>
-  <tbody>
-    <tr>
-      <td align="center"><sub><code>01</code></sub></td>
-      <td width="26%"><a href="https://github.com/excanear/OWASP-Bypass"><b>OWASP&nbsp;Bypass</b></a><br><sub><code>Python</code></sub></td>
-      <td>Engine autônomo de exploração web. <b>106 de 107</b> desafios do OWASP Juice Shop resolvidos de ponta a ponta.</td>
-    </tr>
-    <tr>
-      <td align="center"><sub><code>02</code></sub></td>
-      <td><a href="https://github.com/excanear/Web-Application-Reconnaissance-Investigation-Platform"><b>Web&nbsp;Recon&nbsp;Platform</b></a><br><sub><code>Python</code></sub></td>
-      <td>CLI de reconhecimento ofensivo: fingerprint real de tecnologia e versão, correlacionado a CVEs via NVD.</td>
-    </tr>
-    <tr>
-      <td align="center"><sub><code>03</code></sub></td>
-      <td><a href="https://github.com/excanear/devkit"><b>DEVKIT</b></a><br><sub><code>Assembly</code></sub></td>
-      <td>Toolkit de terminal escrito em <b>100% Assembly x86-64</b> — estático, sem uma única dependência.</td>
-    </tr>
-    <tr>
-      <td align="center"><sub><code>04</code></sub></td>
-      <td><a href="https://github.com/excanear/OSIRIS---Operational-System-Intelligence-Response-Investigation-System"><b>OSIRIS</b></a><br><sub><code>Rust</code></sub></td>
-      <td>Operational System Intelligence &amp; Response — inteligência operacional e investigação de sistema.</td>
-    </tr>
-    <tr>
-      <td align="center"><sub><code>05</code></sub></td>
-      <td><a href="https://github.com/excanear/Network-Kernel-Driver"><b>Network&nbsp;Kernel&nbsp;Driver</b></a><br><sub><code>Rust</code></sub></td>
-      <td>Driver de rede em nível de kernel — interceptação e inspeção abaixo do userspace.</td>
-    </tr>
-    <tr>
-      <td align="center"><sub><code>06</code></sub></td>
-      <td><a href="https://github.com/excanear/Sysinfo-Shell"><b>Sysinfo&nbsp;Shell</b></a><br><sub><code>Shell</code></sub></td>
-      <td>System info em shell POSIX puro, zero dependências: Linux, Windows, WSL, Git Bash e MSYS2.</td>
-    </tr>
-  </tbody>
-</table>
+<sub><b>REPOSITÓRIOS</b> &nbsp;·&nbsp; <a href="https://github.com/excanear/OWASP-Bypass">OWASP&nbsp;Bypass</a> &nbsp;·&nbsp; <a href="https://github.com/excanear/Web-Application-Reconnaissance-Investigation-Platform">Web&nbsp;Recon&nbsp;Platform</a> &nbsp;·&nbsp; <a href="https://github.com/excanear/devkit">DEVKIT</a> &nbsp;·&nbsp; <a href="https://github.com/excanear/OSIRIS---Operational-System-Intelligence-Response-Investigation-System">OSIRIS</a> &nbsp;·&nbsp; <a href="https://github.com/excanear/Network-Kernel-Driver">Network&nbsp;Kernel&nbsp;Driver</a> &nbsp;·&nbsp; <a href="https://github.com/excanear/Sysinfo-Shell">Sysinfo&nbsp;Shell</a></sub>
 
 <details>
 <summary><sub><b>Arquivo completo — 40 repositórios</b></sub></summary>
@@ -68,24 +35,7 @@
 
 &nbsp;
 
-<img src="assets/h-stack.svg" alt="02 / 03 — Stack" width="100%">
-
-<table>
-  <tbody>
-    <tr valign="top">
-      <td width="22%"><sub><b>LINGUAGENS</b></sub></td>
-      <td><sub><code>Python</code> <code>C</code> <code>C++</code> <code>C#</code> <code>Go</code> <code>Rust</code> <code>Java</code> <code>Assembly</code></sub></td>
-    </tr>
-    <tr valign="top">
-      <td><sub><b>OFENSIVO · REDE</b></sub></td>
-      <td><sub><code>Nmap</code> <code>Wireshark</code> <code>Burp&nbsp;Suite</code> <code>OWASP&nbsp;ZAP</code> <code>ffuf</code> <code>Gobuster</code> <code>Metasploit</code> <code>Kali&nbsp;Linux</code></sub></td>
-    </tr>
-    <tr valign="top">
-      <td><sub><b>ENGENHARIA · WEB</b></sub></td>
-      <td><sub><code>Docker</code> <code>Linux</code> <code>Git</code> <code>React</code> <code>Next.js</code> <code>TypeScript</code> <code>Tailwind</code> <code>GSAP</code></sub></td>
-    </tr>
-  </tbody>
-</table>
+<img src="assets/stack.svg" alt="Stack — Linguagens: Python, C, C++, C#, Go, Rust, Java, Assembly · Ofensivo/Rede: Nmap, Wireshark, Burp Suite, OWASP ZAP, ffuf, Gobuster, Metasploit, Kali · Engenharia/Web: Docker, Linux, Git, React, Next.js, TypeScript, Tailwind, GSAP" width="100%">
 
 <details>
 <summary><sub><b>Credenciais técnicas</b></sub></summary>
@@ -110,13 +60,7 @@
 
 &nbsp;
 
-<img src="assets/h-research.svg" alt="03 / 03 — In Progress" width="100%">
-
-Direção atual da pesquisa e do tooling — do userspace ao kernel.
-
-- **Rust para segurança de sistemas** — [OSIRIS](https://github.com/excanear/OSIRIS---Operational-System-Intelligence-Response-Investigation-System) e [Network&nbsp;Kernel&nbsp;Driver](https://github.com/excanear/Network-Kernel-Driver): tooling confiável levado para perto do kernel.
-- **Inteligência de vulnerabilidades em escala** — [CVEs&nbsp;Enterprise&nbsp;System](https://github.com/excanear/CVEs-Enterprise-System): correlação e gestão de CVE como sistema, não como script.
-- **Criptografia de baixo nível** — [Criptografia Avançada](https://github.com/excanear/Sistema-de-Criptografia-e-Descriptografia-Avancada-Open-Source) implementada em Assembly, para entender a primitiva, não só usá-la.
+<img src="assets/research.svg" alt="In Progress — Rust para segurança de sistemas (OSIRIS, Network Kernel Driver) · Inteligência de vulnerabilidades em escala (CVEs Enterprise System) · Criptografia de baixo nível em Assembly" width="100%">
 
 &nbsp;
 

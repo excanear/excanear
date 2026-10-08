@@ -1,13 +1,13 @@
-<svg width="900" height="128" viewBox="0 0 900 128" fill="none" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Ética operacional — uso autorizado. escanearcplx.com">
+<svg width="900" height="134" viewBox="0 0 900 134" fill="none" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Ética operacional — uso autorizado. escanearcplx.com">
   <defs><style>.s{font-family:'Helvetica Neue',Arial,sans-serif;}.d{font-family:'Arial Black','Helvetica Neue',Arial,sans-serif;font-weight:900;}.m{font-family:'JetBrains Mono',Consolas,ui-monospace,monospace;}</style></defs>
-  <rect width="900" height="128" fill="#0b0b0c"/>
-  <rect x="0" y="0" width="900" height="4" fill="#e5502a"/>
+  <rect width="900" height="134" fill="#0b0b0c"/>
+  <rect x="0" y="0" width="900" height="6" fill="#ff512e"/>
 
-  <text x="0" y="34" class="m" font-size="12" fill="#8a8a8a" letter-spacing="3">ÉTICA OPERACIONAL</text>
-  <text x="0" y="68" class="s" font-size="18" font-style="italic" fill="#dcdcda">O conhecimento ofensivo existe para fortalecer a defesa — nunca para violá-la.</text>
-  <text x="0" y="98" class="m" font-size="11.5" fill="#6f6f6f" letter-spacing="2">USO AUTORIZADO · PESQUISA &amp; SEGURANÇA DEFENSIVA</text>
+  <text x="0" y="40" class="m" font-size="12.5" fill="#9a9a9a" letter-spacing="3">ÉTICA OPERACIONAL</text>
+  <text x="0" y="74" class="s" font-size="20" font-style="italic" fill="#e8e8e6">O conhecimento ofensivo existe para fortalecer a defesa — nunca para violá-la.</text>
+  <text x="0" y="102" class="m" font-size="12" fill="#808080" letter-spacing="2">USO AUTORIZADO · PESQUISA &amp; SEGURANÇA DEFENSIVA</text>
 
-  <line x1="0" y1="112" x2="900" y2="112" stroke="#262627"/>
-  <text x="0" y="128" class="d" font-size="13" fill="#f2f2f0" letter-spacing="1">EXCANEAR</text>
-  <text x="900" y="128" text-anchor="end" class="m" font-size="12.5" fill="#e5502a" letter-spacing="1">escanearcplx.com</text>
+  <line x1="0" y1="116" x2="900" y2="116" stroke="#333335"/>
+  <text x="0" y="133" class="d" font-size="14" fill="#f6f6f4" letter-spacing="1">EXCANEAR</text>
+  <text x="900" y="133" text-anchor="end" class="m" font-size="13" fill="#ff512e" letter-spacing="1">escanearcplx.com</text>
 </svg>

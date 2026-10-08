@@ -1,0 +1,34 @@
+<svg width="900" height="288" viewBox="0 0 900 288" fill="none" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="In Progress: Rust para seguranca de sistemas, inteligencia de vulnerabilidades, criptografia de baixo nivel">
+  <defs><style>
+    .d{font-family:'Helvetica Neue',Arial,sans-serif;font-weight:800;}
+    .t{font-family:'Helvetica Neue',Arial,sans-serif;font-weight:700;}
+    .m{font-family:'JetBrains Mono','SF Mono',Consolas,ui-monospace,monospace;}
+  </style></defs>
+  <rect width="900" height="288" fill="#0b0b0c"/>
+
+  <text x="0" y="22" class="m" font-size="12.5" fill="#9a9a9a" letter-spacing="3">§ 03 / 03</text>
+  <text x="0" y="54" class="d" font-size="36" fill="#f6f6f4" letter-spacing="-0.5">IN PROGRESS</text>
+  <rect x="258" y="42" width="52" height="5" fill="#ff512e"><animate attributeName="width" from="0" to="52" begin="0.2s" dur="0.5s" fill="freeze"/></rect>
+  <line x1="318" y1="44.5" x2="900" y2="44.5" stroke="#333335"/>
+
+  <g>
+    <g opacity="0"><animate attributeName="opacity" from="0" to="1" begin="0.3s" dur="0.45s" fill="freeze"/><animateTransform attributeName="transform" type="translate" from="0 8" to="0 0" begin="0.3s" dur="0.5s" calcMode="spline" keySplines="0.2 1 0.3 1" fill="freeze"/>
+      <line x1="0" y1="90" x2="900" y2="90" stroke="#262627"/>
+      <rect x="0" y="106" width="22" height="3" fill="#ff512e"/>
+      <text x="0" y="134" class="t" font-size="18" fill="#f6f6f4">Rust para segurança de sistemas</text>
+      <text x="900" y="134" text-anchor="end" class="m" font-size="13.5" fill="#bcbcba">OSIRIS · Network Kernel Driver</text></g>
+
+    <g opacity="0"><animate attributeName="opacity" from="0" to="1" begin="0.44s" dur="0.45s" fill="freeze"/><animateTransform attributeName="transform" type="translate" from="0 8" to="0 0" begin="0.44s" dur="0.5s" calcMode="spline" keySplines="0.2 1 0.3 1" fill="freeze"/>
+      <line x1="0" y1="156" x2="900" y2="156" stroke="#262627"/>
+      <rect x="0" y="172" width="22" height="3" fill="#ff512e"/>
+      <text x="0" y="200" class="t" font-size="18" fill="#f6f6f4">Inteligência de vulnerabilidades em escala</text>
+      <text x="900" y="200" text-anchor="end" class="m" font-size="13.5" fill="#bcbcba">CVEs Enterprise System</text></g>
+
+    <g opacity="0"><animate attributeName="opacity" from="0" to="1" begin="0.58s" dur="0.45s" fill="freeze"/><animateTransform attributeName="transform" type="translate" from="0 8" to="0 0" begin="0.58s" dur="0.5s" calcMode="spline" keySplines="0.2 1 0.3 1" fill="freeze"/>
+      <line x1="0" y1="222" x2="900" y2="222" stroke="#262627"/>
+      <rect x="0" y="238" width="22" height="3" fill="#ff512e"/>
+      <text x="0" y="266" class="t" font-size="18" fill="#f6f6f4">Criptografia de baixo nível</text>
+      <text x="900" y="266" text-anchor="end" class="m" font-size="13.5" fill="#bcbcba">implementada em Assembly</text>
+      <line x1="0" y1="284" x2="900" y2="284" stroke="#262627"/></g>
+  </g>
+</svg>
