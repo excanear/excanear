@@ -36,12 +36,10 @@
 > sempre respondendo à mesma pergunta — **como isso funciona por baixo?**
 
 ```yaml
-operator:
   handle:    excanear
   alias:     Escanearcpl
   base:      São Paulo, BR 🇧🇷
   papel:     [ Hacker Ético, Red Team Operator, Pentester, Security Researcher ]
-  atua_como: Chefe de Segurança & Gerente @ GTWA Studio
   foco:      [ AppSec, Reverse Engineering, DFIR, OSINT, Kernel, Criptografia ]
   sistemas:  [ Kali Linux, Parrot OS, Arch Linux ]
   lema:      "Pensar fora da caixa — e dentro do binário."
